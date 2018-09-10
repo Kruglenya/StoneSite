@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Brightstone", "Brightstone\Brightstone.csproj", "{E0A58BC4-3477-4B64-831D-75F10CB3D2E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Brightstone.Tests", "Brightstone.Tests\Brightstone.Tests.csproj", "{E8161CF0-EDAF-427F-89D9-01CB7284C0F1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E0A58BC4-3477-4B64-831D-75F10CB3D2E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0A58BC4-3477-4B64-831D-75F10CB3D2E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0A58BC4-3477-4B64-831D-75F10CB3D2E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0A58BC4-3477-4B64-831D-75F10CB3D2E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8161CF0-EDAF-427F-89D9-01CB7284C0F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8161CF0-EDAF-427F-89D9-01CB7284C0F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8161CF0-EDAF-427F-89D9-01CB7284C0F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8161CF0-EDAF-427F-89D9-01CB7284C0F1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8CEF4666-68D5-4BFE-9CFE-72733185B517}
+	EndGlobalSection
+EndGlobal
