@@ -17,16 +17,23 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                @Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+                @Html.ActionLink("BrightStone", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
-                    <li>@Html.ActionLink("About", "About", "Home")</li>
-                    <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                    <li>@Html.ActionLink("Главная", "About", "Home")</li>
+                    <li>@Html.ActionLink("Каталог камня", "Index", "Home")</li>
+                    <li>@Html.ActionLink("Продукция", "About", "Home")</li>
+                    <li>@Html.ActionLink("Услуги", "About", "Home")</li>
+                    <li>@Html.ActionLink("Производство", "About", "Home")</li>
+                    <li>@Html.ActionLink("Контакты", "About", "Home")</li>
                 </ul>
                 @Html.Partial("_LoginPartial")
             </div>
+        </div>
+        <div class="jumbotron">
+            <h1>Онлайн заказ</h1>
+            <p class="lead">Позвоните нам по номеру +71231234123</p>
         </div>
     </div>
     <div class="container body-content">
